@@ -1,0 +1,12 @@
+strong {
+    color:rgb(5, 92, 46);
+    font-style: italic;
+}
+strong code {
+    color:blue !important;
+    font-style: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.keys kbd{
+    background: rgb(117, 255, 38);
+}

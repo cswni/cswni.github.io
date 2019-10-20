@@ -13,6 +13,8 @@
         <meta name="description" content="Directrices de trabajo">
       
       
+        <link rel="canonical" href="https://ubedaca.github.io/uml/2019/uml-app/lec-1/">
+      
       
         <meta name="author" content="Carlos Perez">
       
@@ -35,17 +37,17 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="/uml/2019/uml-app/assets/images/favicon.png">
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
     
     
       
-        <title>Sistema de asistencia estudiantil</title>
+        <title>1.1 - Laravel y activación de homestead - Sistema de asistencia estudiantil</title>
       
     
     
-      <link rel="stylesheet" href="/uml/2019/uml-app/assets/stylesheets/application.4031d38b.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.4031d38b.css">
       
-        <link rel="stylesheet" href="/uml/2019/uml-app/assets/stylesheets/application-palette.3e3d1dff.css">
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.3e3d1dff.css">
       
       
         
@@ -54,15 +56,15 @@
       
     
     
-      <script src="/uml/2019/uml-app/assets/javascripts/modernizr.74668098.js"></script>
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
     
     
       
-        <link rel="stylesheet" href="/uml/2019/uml-app/assets/fonts/roboto/stylesheet.css">
+        <link rel="stylesheet" href="../assets/fonts/roboto/stylesheet.css">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="/uml/2019/uml-app/assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
     
       <link rel="stylesheet" href="/assets/stylesheets/estilos.css">
@@ -89,6 +91,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#primera-unidad" tabindex="1" class="md-skip">
+        Saltar a contenido
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -111,7 +117,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                
+                1.1 - Laravel y activación de homestead
               
             </span>
           
@@ -222,7 +228,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/uml/2019/uml-app/." title="Inicio" class="md-nav__link">
+    <a href=".." title="Inicio" class="md-nav__link">
       Inicio
     </a>
   </li>
@@ -253,7 +259,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/uml/2019/uml-app/apps-1/" title="Instalaciones" class="md-nav__link">
+    <a href="../apps-1/" title="Instalaciones" class="md-nav__link">
       Instalaciones
     </a>
   </li>
@@ -268,10 +274,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Instalación de componentes
@@ -287,11 +295,76 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="/uml/2019/uml-app/lec-1/" title="1.1 - Laravel y activación de homestead" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        1.1 - Laravel y activación de homestead
+      </label>
+    
+    <a href="./" title="1.1 - Laravel y activación de homestead" class="md-nav__link md-nav__link--active">
       1.1 - Laravel y activación de homestead
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Tabla de contenidos</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#investigacion-de-operaciones-y-analisis-cuantitativo" class="md-nav__link">
+    INVESTIGACIÓN DE OPERACIONES Y ANÁLISIS CUANTITATIVO
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-analisis-cuantitativo" class="md-nav__link">
+    1.1  Análisis Cuantitativo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-definicion" class="md-nav__link">
+    1.1.1   Definición
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112-funciones" class="md-nav__link">
+    1.1.2   Funciones
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -301,7 +374,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/uml/2019/uml-app/lec-2/" title="1.2 - Configurar virtual host" class="md-nav__link">
+    <a href="../lec-2/" title="1.2 - Configurar virtual host" class="md-nav__link">
       1.2 - Configurar virtual host
     </a>
   </li>
@@ -313,7 +386,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/uml/2019/uml-app/lec-3/" title="1.3 - Pruebas en Windows" class="md-nav__link">
+    <a href="../lec-3/" title="1.3 - Pruebas en Windows" class="md-nav__link">
       1.3 - Pruebas en Windows
     </a>
   </li>
@@ -349,7 +422,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/uml/2019/uml-app/apps-1/" title="2.1 - Usuarios" class="md-nav__link">
+    <a href="../apps-1/" title="2.1 - Usuarios" class="md-nav__link">
       2.1 - Usuarios
     </a>
   </li>
@@ -361,7 +434,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/uml/2019/uml-app/apps-1/" title="2.2 - Carreras" class="md-nav__link">
+    <a href="../apps-1/" title="2.2 - Carreras" class="md-nav__link">
       2.2 - Carreras
     </a>
   </li>
@@ -373,7 +446,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/uml/2019/uml-app/apps-1/" title="2.3 - Universidad" class="md-nav__link">
+    <a href="../apps-1/" title="2.3 - Universidad" class="md-nav__link">
       2.3 - Universidad
     </a>
   </li>
@@ -385,7 +458,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/uml/2019/uml-app/apps-1/" title="2.4 - Otros" class="md-nav__link">
+    <a href="../apps-1/" title="2.4 - Otros" class="md-nav__link">
       2.4 - Otros
     </a>
   </li>
@@ -421,7 +494,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/uml/2019/uml-app/apps-1/" title="Migraciones generales" class="md-nav__link">
+    <a href="../apps-1/" title="Migraciones generales" class="md-nav__link">
       Migraciones generales
     </a>
   </li>
@@ -457,7 +530,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/uml/2019/uml-app/apps-1/" title="Congfiguraciones" class="md-nav__link">
+    <a href="../apps-1/" title="Congfiguraciones" class="md-nav__link">
       Congfiguraciones
     </a>
   </li>
@@ -493,7 +566,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/uml/2019/uml-app/apps-1/" title="En desarrollo" class="md-nav__link">
+    <a href="../apps-1/" title="En desarrollo" class="md-nav__link">
       En desarrollo
     </a>
   </li>
@@ -511,12 +584,79 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Tabla de contenidos</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#investigacion-de-operaciones-y-analisis-cuantitativo" class="md-nav__link">
+    INVESTIGACIÓN DE OPERACIONES Y ANÁLISIS CUANTITATIVO
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-analisis-cuantitativo" class="md-nav__link">
+    1.1  Análisis Cuantitativo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-definicion" class="md-nav__link">
+    1.1.1   Definición
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112-funciones" class="md-nav__link">
+    1.1.2   Funciones
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
-
+                
+                
+                <h1 id="primera-unidad">Primera unidad</h1>
+<h2 id="investigacion-de-operaciones-y-analisis-cuantitativo">INVESTIGACIÓN DE OPERACIONES Y ANÁLISIS CUANTITATIVO</h2>
+<h2 id="11-analisis-cuantitativo">1.1  Análisis Cuantitativo</h2>
+<h3 id="111-definicion">1.1.1   Definición</h3>
+<h3 id="112-funciones">1.1.2   Funciones</h3>
+                
+                  
+                
+              
               
                 
 
@@ -529,6 +669,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../apps-1/" title="Instalaciones" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Instalaciones
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../lec-2/" title="1.2 - Configurar virtual host" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Siguiente
+                </span>
+                1.2 - Configurar virtual host
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -546,7 +721,7 @@
       </div>
       
   <div class="md-footer-social">
-    <link rel="stylesheet" href="/uml/2019/uml-app/assets/fonts/font-awesome.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
     
       <a href="https://github.com/ubedaca" class="md-footer-social__link fa fa-github"></a>
     
@@ -566,24 +741,24 @@
       
     </div>
     
-      <script src="/uml/2019/uml-app/assets/javascripts/application.718059d6.js"></script>
+      <script src="../assets/javascripts/application.718059d6.js"></script>
       
         
         
           
-          <script src="/uml/2019/uml-app/assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          <script src="../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
           
             
               
               
-                <script src="/uml/2019/uml-app/assets/javascripts/lunr/lunr.es.js"></script>
+                <script src="../assets/javascripts/lunr/lunr.es.js"></script>
               
             
           
           
         
       
-      <script>app.initialize({version:"1.0.4",url:{base:"/uml/2019/uml-app/"}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
     
   </body>
