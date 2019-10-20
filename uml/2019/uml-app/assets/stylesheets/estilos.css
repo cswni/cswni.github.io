@@ -10,3 +10,14 @@ strong code {
 .keys kbd{
     background: rgb(117, 255, 38);
 }
+.alert{
+    color:brown;
+    text-transform: uppercase;
+    display: block;
+    padding: 5px;
+    border: red 2px solid;
+    margin: 5px;
+    background:#4caf4fa2;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 2px gray;
+}
