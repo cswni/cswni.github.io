@@ -21,3 +21,11 @@ strong code {
     border-radius: 10px;
     box-shadow: 0 0 12px 2px gray;
 }
+
+img {
+    box-shadow:0 0 15px#CCC;
+    border-radius: 10px;
+    border:2px solid gray;
+    display: block;
+    margin: 0 auto;
+}

@@ -91,7 +91,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#primera-unidad" tabindex="1" class="md-skip">
+      <a href="#configurar-el-virtualhost-para-la-app" tabindex="1" class="md-skip">
         Saltar a contenido
       </a>
     
@@ -336,36 +336,30 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#investigacion-de-operaciones-y-analisis-cuantitativo" class="md-nav__link">
-    INVESTIGACIÓN DE OPERACIONES Y ANÁLISIS CUANTITATIVO
+  <a href="#crear-un-servidor-virtual-para-el-dominio-umlasistenciaapp" class="md-nav__link">
+    Crear un servidor virtual para el dominio umlasistencia.app
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#11-analisis-cuantitativo" class="md-nav__link">
-    1.1  Análisis Cuantitativo
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#111-definicion" class="md-nav__link">
-    1.1.1   Definición
+  <a href="#crear-el-servidor-virtual-en-el-fichero-hosts-de-windows" class="md-nav__link">
+    Crear el servidor virtual en el fichero hosts de Windows
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#112-funciones" class="md-nav__link">
-    1.1.2   Funciones
+      
+        <li class="md-nav__item">
+  <a href="#encender-el-servidor-y-probar-en-el-navegador" class="md-nav__link">
+    Encender el servidor y probar en el navegador
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#videos-de-apoyo-en-youtube" class="md-nav__link">
+    Videos de apoyo en YouTube
+  </a>
   
 </li>
       
@@ -598,36 +592,30 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#investigacion-de-operaciones-y-analisis-cuantitativo" class="md-nav__link">
-    INVESTIGACIÓN DE OPERACIONES Y ANÁLISIS CUANTITATIVO
+  <a href="#crear-un-servidor-virtual-para-el-dominio-umlasistenciaapp" class="md-nav__link">
+    Crear un servidor virtual para el dominio umlasistencia.app
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#11-analisis-cuantitativo" class="md-nav__link">
-    1.1  Análisis Cuantitativo
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#111-definicion" class="md-nav__link">
-    1.1.1   Definición
+  <a href="#crear-el-servidor-virtual-en-el-fichero-hosts-de-windows" class="md-nav__link">
+    Crear el servidor virtual en el fichero hosts de Windows
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#112-funciones" class="md-nav__link">
-    1.1.2   Funciones
+      
+        <li class="md-nav__item">
+  <a href="#encender-el-servidor-y-probar-en-el-navegador" class="md-nav__link">
+    Encender el servidor y probar en el navegador
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#videos-de-apoyo-en-youtube" class="md-nav__link">
+    Videos de apoyo en YouTube
+  </a>
   
 </li>
       
@@ -648,11 +636,61 @@
               
                 
                 
-                <h1 id="primera-unidad">Primera unidad</h1>
-<h2 id="investigacion-de-operaciones-y-analisis-cuantitativo">INVESTIGACIÓN DE OPERACIONES Y ANÁLISIS CUANTITATIVO</h2>
-<h2 id="11-analisis-cuantitativo">1.1  Análisis Cuantitativo</h2>
-<h3 id="111-definicion">1.1.1   Definición</h3>
-<h3 id="112-funciones">1.1.2   Funciones</h3>
+                <h1 id="configurar-el-virtualhost-para-la-app">Configurar el virtualhost para la app</h1>
+<h2 id="crear-un-servidor-virtual-para-el-dominio-umlasistenciaapp">Crear un servidor virtual para el dominio <strong>umlasistencia.app</strong></h2>
+<ul>
+<li>
+<p>Cuando ejecutamos el ultimo comando <code>vendor\\bin\\homestead make</code> <span class="keys"><kbd class="key-enter">Enter</kbd></span> en la sección anterior se crean dos archivos que se llaman Homestead.yaml y Vagranfile.</p>
+</li>
+<li>
+<p>En el archivo Homestead.yaml cambiar el nombre del servidor y el la ruta de las carpetas. Debe quedar de esta manera(Solo cambiar lo que se explica en el video)</p>
+</li>
+</ul>
+<p><img alt="logo" src="../assets/images/homestead.jpg" /></p>
+<p><span class="alert">Solo cambiar lo que les explico en el video. En mi caso tengo varios sistemas y por tanto la configuración puede cambiar.</span></p>
+<h2 id="crear-el-servidor-virtual-en-el-fichero-hosts-de-windows">Crear el servidor virtual en el fichero hosts de Windows</h2>
+<ul>
+<li>Abrir la ruta que se muestra en la imagen</li>
+</ul>
+<p><img alt="logo" src="../assets/images/hosts.jpg" /></p>
+<ul>
+<li>
+<p>Abrir la ventana de ejecutar en Windows
+<span class="keys"><kbd class="key-windows">Win</kbd></span> + <span class="keys"><kbd class="key-r">R</kbd></span></p>
+</li>
+<li>
+<p>Escribir
+<code>%windir%\system32\drivers\host</code> <span class="keys"><kbd class="key-enter">Enter</kbd></span></p>
+</li>
+<li>
+<p>Abrir el archivo <code>hosts</code>
+<span class="alert">Abrir este archivo usando Notepad++, dando clic derecho sobre ese fichero</span></p>
+</li>
+<li>
+<p>Agregar la direccion ip y el nombre de dominio al final del archivo y guardar.</p>
+</li>
+</ul>
+<p><code>192.168.10.10  umlasistencia.curso</code></p>
+<h2 id="encender-el-servidor-y-probar-en-el-navegador">Encender el servidor y probar en el navegador</h2>
+<ul>
+<li>
+<p>Para encender Laravel desde el servidor escribimos en la consola dentro del servidor y dentro de la carpeta app-uml-asistencia
+<code>php artisan serve</code></p>
+</li>
+<li>
+<p>Ahora en el navegador web que usemos podemos anotar la url umlasistencia.curso y nos muestra la pagina principal de Laravel</p>
+</li>
+</ul>
+<p><img alt="logo" src="../assets/images/laravel.jpg" /></p>
+<h2 id="videos-de-apoyo-en-youtube">Videos de apoyo en YouTube</h2>
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=MPv5RZkE4BE"><img alt="Parte 1" src="https://img.youtube.com/vi/MPv5RZkE4BE/0.jpg" /></a></p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=UCHmk-Am23U"><img alt="Parte 2" src="https://img.youtube.com/vi/UCHmk-Am23U/0.jpg" /></a></p>
+</li>
+</ul>
                 
                   
                 
