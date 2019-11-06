@@ -12,20 +12,20 @@ strong code {
 }
 .alert{
     color:brown;
-    text-transform: uppercase;
     display: block;
-    padding: 5px;
+    padding: 8px;
     border: red 2px solid;
     margin: 5px;
-    background:#4caf4fa2;
+    background:#afffb2a2;
     border-radius: 10px;
     box-shadow: 0 0 12px 2px gray;
 }
 
 img:not([class='emojione']) {
-    box-shadow:0 0 15px#CCC;
+    box-shadow:2px 3px 15px 5px #CCC;
     border-radius: 10px;
-    border:2px solid gray;
+    border:1px solid gray;
     display: block;
+    padding: 8px;
     margin: 0 auto;
 }
