@@ -29,3 +29,23 @@ img:not([class='emojione']) {
     padding: 8px;
     margin: 0 auto;
 }
+.codehilite pre {
+   color: rgb(255, 124, 16) !important;
+   font-weight: bolder !important;
+   font-size: 16px !important;
+}
+code {
+    color: rgb(0, 65, 185) !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+ }
+
+ h1{
+     color: green !important;
+ }
+ h2{
+    color: green !important;
+ }
+ h3{
+    color: green !important;
+ }
